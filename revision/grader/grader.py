@@ -61,21 +61,23 @@ def readScores(filepath):
     '''
 
     student_scores_file_object = open(filepath, 'r')
-    
+    students_grade_file = open('student_grades.txt', 'w')
+
     for line in student_scores_file_object:
         name, score = line.split()
 
-        score = validateInput(score, True)
+        score = validateInput(score)
         if score is None:
             grade = 'Invalid Score'
 
         else:
             grade = gradeScore(score)
-        print(f'name = {name}, score = {score}, grade = {grade}')
-##
-##    open('student_grades.txt', 'w')
+            
+        print(f'{name} {grade}', file=students_grade_file)
+
 
     student_scores_file_object.close()
+    students_grade_file.close()
     return
 
 
