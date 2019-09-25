@@ -15,7 +15,7 @@ class ScoreGrader:
             
         '''
         
-        pass
+        return
 
 def main():
     #object instance
