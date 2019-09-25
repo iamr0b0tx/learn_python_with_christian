@@ -7,7 +7,7 @@ A program that takes a file containing student name(id) and scores and produces 
 
 # OOP Structure for the ScoreGrader Class
  - ## Constructor
-        The construct takes nothing at the moment
+    The construct takes nothing at the moment
 
  - ## convertScoresToGrades
-        This methods takes two parameters, scoresfilepath and gradesfilepath. scoresfilepath is the path to the file that conatins the student scores and gradesfilepath is the path to the file that contains the student grades.
+    This methods takes two parameters, scoresfilepath and gradesfilepath. scoresfilepath is the path to the file that conatins the student scores and gradesfilepath is the path to the file that contains the student grades.
