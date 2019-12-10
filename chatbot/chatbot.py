@@ -20,6 +20,10 @@ while query != 'q':
     # collect the input and make it lower case
     query = input('\_> ').lower()
 
+    if query == 'q':
+        print('Bye!')
+        break
+
     # if the query in responses
     if query in responses:
         response = responses[query]
