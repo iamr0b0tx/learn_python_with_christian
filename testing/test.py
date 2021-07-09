@@ -1,6 +1,6 @@
 import unittest
 
-from main import get_length, get_sum
+from testing.main import get_length, get_sum
 
 
 class MyTestCase(unittest.TestCase):
